@@ -40,11 +40,11 @@
 .loginScreen__button{
     position: fixed;
     right: 20px;
-    top: 20px;
+    top: 35px;
     padding: 10px 20px;
     font-size: 1rem;
     color: #fff;
-    background-color: #e50914;
+    background-color: #7808e7;
     font-weight: 600;
     border: none;
     cursor: pointer;
@@ -53,7 +53,7 @@
 .loginScreen__logo{
     position: fixed;
     left: 0;
-    width: 150px;
+    width: 250px;
     object-fit: contain;
     padding-left: 20px;
     padding-top: 20px;   
@@ -73,7 +73,7 @@
     padding: 16px 20px;
     font-size: 1 rem;
     color: #fff;
-    background-color: #e50914;
+    background-color: #7808e7;
     border: none;
     border-radius: 3px;
     font-weight: 600;
