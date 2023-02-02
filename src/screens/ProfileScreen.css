@@ -1,6 +1,77 @@
+    @media (max-width: 781px) and (min-width: 592px) {
+    .profileScreen__info > img {
+        display: none;
+    }
+    .profileScreen__signOut{
+        padding: 10px 20px;
+        font-size: 0.5 rem;
+        margin-top: 5%;
+        width: 40%;
+        color: #fff;
+        background-color: #7808e7;
+        border-radius: 5px;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+    }
+  }
+    @media (max-width: 592px) and (min-width: 442px) {
+    .profileScreen__info > img {
+        display: none;
+    }
+    .profileScreen{
+        height: 100vh;
+        color: white; 
+        width: 50%;
+    }
+    .profileScreen__details > h2{
+        background-color: #7808e7;
+        padding: 15px;
+        font-size: 15px;
+        padding-left: 20px;
+        border-radius: 5px;
+        width: 130%;
+    }
+  }
+    @media (max-width: 442px) and (min-width:280px) {
+    .profileScreen__info > img {
+        display: none;
+    }
+    .profileScreen{
+        height: 100vh;
+        color: white; 
+        width: 20%;
+    }
+    .profileScreen__details > h2{
+        background-color: #7808e7;
+        padding: 15px;
+        font-size: 15px;
+        padding-left: 20px;
+        border-radius: 5px;
+        width: 110%;
+    }
+    @media (max-width: 280px) and (min-width: 0px) {
+        .profileScreen__info > img {
+            display: none;
+        }
+        .profileScreen{
+            height: 100vh;
+            color: white; 
+            width: 0;
+        }
+        .profileScreen__details > h2{
+            background-color: #7808e7;
+            padding: 15px;
+            font-size: 15px;
+            padding-left: 20px;
+            border-radius: 5px;
+            width: 110%;
+        }
+    }    
+}
 .profileScreen{
     height: 100vh;
-    color: white;
+    color: white; 
 }
 .profileScreen__body{
     display: flex;
@@ -35,7 +106,7 @@
     padding: 10px 20px;
     font-size: 1rem;
     margin-top: 5%;
-    width: 100%;
+    width: 40%;
     color: #fff;
     background-color: #7808e7;
     border-radius: 5px;
@@ -50,6 +121,4 @@
 }
 .profileScreen__info > img {
     height: 100px;
-    
 }
-

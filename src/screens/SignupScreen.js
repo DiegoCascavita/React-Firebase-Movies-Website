@@ -38,13 +38,13 @@ function SignupScreen() {
 
   return (<div className='signupScreen'>
     <form>
-      <h1>Sign in</h1>
+      <h1>Sign Up</h1>
       <input ref={emailRef} placeholder='Email' type="email" />
       <input ref={passwordRef} placeholder='password' type="password"/>
-      <button type='submit' onClick={signIn}>Sign in</button>
+      <button type='submit' onClick={register}>Sign up</button>
       <h4>
         <span className='signupScreen__gray'>New to Netflix ? </span>
-        <span className='signupScreen__link' onClick={register}>Sign Up now.</span>
+        <span className='signupScreen__link' onClick={signIn}>Sign Up now.</span>
       </h4>
     </form>
   </div>
