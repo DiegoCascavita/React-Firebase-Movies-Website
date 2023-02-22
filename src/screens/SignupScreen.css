@@ -4,6 +4,8 @@
     margin-left: auto;
     margin-right: auto;
     background: rgba(0, 0, 0, 0.85);
+    overflow: hidden;
+    margin-top: -50px;
 }
 .signupScreen > form > h1 {
     text-align: left;

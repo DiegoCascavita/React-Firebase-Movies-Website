@@ -6,6 +6,7 @@ footer {
 }
 a{
     text-decoration: none;
+    transition: color 1.5s;
 }
 .footer__container{
   row-gap: 3.5rem;
@@ -36,6 +37,7 @@ a{
 .footer__social{
   font-size: 1.25rem;
   padding-left: 35px;
+  transition: color 1.5s;
 }
 .footer__social:hover{
   color: #8835db;

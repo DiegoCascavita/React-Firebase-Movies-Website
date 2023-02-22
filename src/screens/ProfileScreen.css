@@ -3,14 +3,14 @@
         display: none;
     }
     .profileScreen__signOut{
-        padding: 10px 20px;
+        padding: 5px 5px;
         font-size: 0.5 rem;
         margin-top: 5%;
         width: 40%;
         color: #fff;
         background-color: #7808e7;
         border-radius: 5px;
-        font-weight: 600;
+        font-weight: 100;
         border: none;
         cursor: pointer;
     }
